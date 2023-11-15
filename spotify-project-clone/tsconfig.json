@@ -1,0 +1,31 @@
+{
+  "extends": "astro/tsconfigs/strict",
+  "compilerOptions": {
+    "baseUrl": "D:/Documentos/Proyectos/1.Training/8.Freelancers/Proyectos/spotify-project-clone",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "@/components/*": [
+        "src/components/*"
+      ],
+      "@/hooks/*": [
+        "src/hooks/*"
+      ],
+      "@/pages/*": [
+        "src/pages/*"
+      ],
+      "@/icons/*": [
+        "src/icons/*"
+      ],
+      "@/lib/*": [
+        "src/lib/*"
+      ],
+      "@/layouts/*": [
+        "src/layouts/*"
+      ]
+    },
+    "jsx": "react-jsx",
+    "jsxImportSource": "react"
+  }
+}
